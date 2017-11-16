@@ -1,0 +1,56 @@
+2017-11-16 19:58:34.6551 [DEBUG] Authenticating with server...
+2017-11-16 19:58:35.0024 [DEBUG] Connected to room. (49832:SceneFusion:SceneFusion)
+2017-11-16 19:58:35.0079 [INFO] Connected to server.
+2017-11-16 19:58:35.0079 [DEBUG] OS : Microsoft Windows NT 10.0.14393.0
+2017-11-16 19:58:35.0079 [DEBUG] Unity Version : 2017.2.0f3
+2017-11-16 19:58:35.0079 [DEBUG] Pro License : False
+2017-11-16 19:58:35.0084 [DEBUG] Platform : WindowsEditor
+2017-11-16 19:58:35.0084 [DEBUG] Build Target : StandaloneWindows64
+2017-11-16 19:58:35.0084 [DEBUG] Scene Fusion version : 1.6.0
+2017-11-16 19:58:35.0114 [DEBUG] User : 
+2017-11-16 19:58:35.0239 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2017-11-16 19:58:35.0239 [DEBUG] User Permissions: FFFFFFFF
+2017-11-16 19:58:35.0275 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2017-11-16 19:58:35.0275 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2017-11-16 19:58:35.0275 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2017-11-16 19:58:35.0275 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2017-11-16 19:58:35.0275 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2017-11-16 19:58:35.0275 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2017-11-16 19:58:35.2616 [DEBUG] Uploading scene 'level1'
+2017-11-16 20:00:53.0566 [DEBUG] Refresh token (SgKLCxffMjmz839QDhL8P4nBaN3oqilDdPb6jgqhfZPoiPuSQlmZ3hmEWUbel69sAqPj5fajoXEOeHDC9hCuqhZEhg0mESCrx5RxBJIpXlQpN6oNGXEPlMp9KdlLN4i8zZKfQ7cyIpidRFEAdoleRSwotm6uHLbtiNIlpfZhxMtKESGjeDKB4fkiEYsNMHCcIH3UprQSpUFfyDkwxoh2us0IyRkY9nFjqeUYKq3aklZFHzkD9jQkbHIfS8hKKyU) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2017-11-16 20:01:44.8414 [DEBUG] Disconnecting temporarily to enter play mode.
+2017-11-16 20:01:44.8414 [DEBUG] Disconnecting from room (49832:SceneFusion:SceneFusion)
+2017-11-16 20:01:44.8494 [INFO] Disconnected from server.
+2017-11-16 20:01:44.8494 [DEBUG] Disconnect. (Duration: 189)
+2017-11-16 20:01:44.8665 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2017-11-16 20:01:47.3418 [DEBUG] Scene Fusion version 1.6.0-1
+2017-11-16 20:01:47.4030 [DEBUG] Play mode: True, sync in play mode: False
+2017-11-16 20:01:47.4775 [DEBUG] Connecting to room (49832:SceneFusion:SceneFusion) via TCP at ec2-34-215-86-166.us-west-2.compute.amazonaws.com:1026
+2017-11-16 20:01:47.4860 [DEBUG] Host connection. (Session: 49832)
+2017-11-16 20:01:47.8547 [DEBUG] Authenticating with server...
+2017-11-16 20:01:48.0607 [DEBUG] Connected to room. (49832:SceneFusion:SceneFusion)
+2017-11-16 20:01:48.0707 [INFO] Connected to server.
+2017-11-16 20:01:48.0712 [DEBUG] OS : Microsoft Windows NT 10.0.14393.0
+2017-11-16 20:01:48.0712 [DEBUG] Unity Version : 2017.2.0f3
+2017-11-16 20:01:48.0712 [DEBUG] Pro License : False
+2017-11-16 20:01:48.0717 [DEBUG] Platform : WindowsEditor
+2017-11-16 20:01:48.0717 [DEBUG] Build Target : StandaloneWindows64
+2017-11-16 20:01:48.0717 [DEBUG] Scene Fusion version : 1.6.0
+2017-11-16 20:01:48.0717 [DEBUG] User : 
+2017-11-16 20:01:48.1434 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2017-11-16 20:01:48.1434 [DEBUG] User Permissions: FFFFFFFF
+2017-11-16 20:01:48.1845 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2017-11-16 20:01:48.1845 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2017-11-16 20:01:48.1845 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2017-11-16 20:01:48.1845 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2017-11-16 20:01:48.1845 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2017-11-16 20:01:48.1850 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2017-11-16 20:01:49.6617 [DEBUG] Play mode: False
+2017-11-16 20:02:06.5757 [DEBUG] Disconnecting temporarily to recompile.
+2017-11-16 20:02:06.5762 [DEBUG] Disconnecting from room (49832:SceneFusion:SceneFusion)
+2017-11-16 20:02:06.5822 [INFO] Disconnected from server.
+2017-11-16 20:02:06.5822 [DEBUG] Disconnect. (Duration: -327)
+2017-11-16 20:02:06.6103 [ERROR] Error invoking method Resolve: Non-static method requires a target.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x000fe] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:236 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115 
+  at KS.Unity.Editor.ReflectionObject.InstanceInvoke (System.Object instance, System.Object[] args) [0x00000] in <filename unknown>:0 

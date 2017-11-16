@@ -253,6 +253,18 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="KSCommon.Unity2017_1">
+      <HintPath>Assets/KinematicSoup/KSCommon.Unity2017_1.dll</HintPath>
+    </Reference>
+    <Reference Include="KSCommon-Editor.Unity2017_1">
+      <HintPath>Assets/KinematicSoup/Editor/KSCommon-Editor.Unity2017_1.dll</HintPath>
+    </Reference>
+    <Reference Include="KSSceneFusion.Unity2017_1">
+      <HintPath>Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2017_1.dll</HintPath>
+    </Reference>
+    <Reference Include="KSSceneFusion-Editor.Unity2017_1">
+      <HintPath>Assets/KinematicSoup/SceneFusion/Editor/KSSceneFusion-Editor.Unity2017_1.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/toino/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -267,18 +279,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/toino/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="KSCommon.Unity2017_1">
-      <HintPath>Assets/KinematicSoup/KSCommon.Unity2017_1.dll</HintPath>
-    </Reference>
-    <Reference Include="KSSceneFusion-Editor.Unity2017_1">
-      <HintPath>Assets/KinematicSoup/SceneFusion/Editor/KSSceneFusion-Editor.Unity2017_1.dll</HintPath>
-    </Reference>
-    <Reference Include="KSCommon-Editor.Unity2017_1">
-      <HintPath>Assets/KinematicSoup/Editor/KSCommon-Editor.Unity2017_1.dll</HintPath>
-    </Reference>
-    <Reference Include="KSSceneFusion.Unity2017_1">
-      <HintPath>Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2017_1.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,82 @@
+2017-11-16 19:34:43.3792 [DEBUG] Authenticating with server...
+2017-11-16 19:34:43.6076 [DEBUG] Connected to room. (49821:SceneFusion:SceneFusion)
+2017-11-16 19:34:43.6131 [INFO] Connected to server.
+2017-11-16 19:34:43.6131 [DEBUG] OS : Microsoft Windows NT 10.0.14393.0
+2017-11-16 19:34:43.6136 [DEBUG] Unity Version : 2017.2.0f3
+2017-11-16 19:34:43.6136 [DEBUG] Pro License : False
+2017-11-16 19:34:43.6136 [DEBUG] Platform : WindowsEditor
+2017-11-16 19:34:43.6136 [DEBUG] Build Target : StandaloneWindows64
+2017-11-16 19:34:43.6136 [DEBUG] Scene Fusion version : 1.6.0
+2017-11-16 19:34:43.6169 [DEBUG] User : 
+2017-11-16 19:34:43.6916 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2017-11-16 19:34:43.6916 [DEBUG] User Permissions: FFFFFFFF
+2017-11-16 19:34:44.5012 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2017-11-16 19:34:44.5012 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2017-11-16 19:34:44.5012 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2017-11-16 19:34:44.5012 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2017-11-16 19:34:44.5017 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2017-11-16 19:34:44.5017 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2017-11-16 19:38:38.0243 [ERROR] Unable to find method GetClassIDWithoutLoadingObject
+2017-11-16 19:38:38.0288 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+KS.SceneFusion.Client.Editor.AssetSorter.GetClassId (UnityEngine.Object asset)
+KS.SceneFusion.Client.Editor.AssetSorter.GetSortKey (UnityEngine.Object asset)
+System.Linq.SortSequenceContext`2[UnityEngine.Object,System.Collections.Generic.KeyValuePair`2[System.Int32,System.String]].Initialize (UnityEngine.Object[] elements)
+System.Linq.QuickSort`1[UnityEngine.Object].PerformSort ()
+System.Linq.QuickSort`1+<Sort>c__Iterator21[UnityEngine.Object].MoveNext ()
+KS.SceneFusion.Client.Editor.AssetSorter.Sort (UnityEngine.Object[] assets, UnityEngine.Object mainAsset)
+KS.SceneFusion.Client.Editor.AssetCache.CacheAssets (System.String path, Int32 index, UnityEngine.Object& asset, System.String& assetPath)
+KS.SceneFusion.Client.Editor.AssetCache.CacheAssets (System.String path)
+KS.SceneFusion.Client.Editor.AssetCache.OnNewAssets (System.String[] paths)
+KS.Unity.Editor.EditorEvents.OnPostprocessAllAssets (System.String[] importedAssets, System.String[] deletedAssets, System.String[] movedAssets, System.String[] movedFromAssetPaths)
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:222)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:232)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MethodBase.cs:115)
+UnityEditor.AssetPostprocessingInternal.PostprocessAllAssets (System.String[] importedAssets, System.String[] addedAssets, System.String[] deletedAssets, System.String[] movedAssets, System.String[] movedFromPathAssets) (at C:/buildslave/unity/build/Editor/Mono/AssetPostprocessor.cs:27)
+UnityEditorInternal.InternalEditorUtility:ProjectWindowDrag(HierarchyProperty, Boolean)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+
+2017-11-16 19:38:40.7081 [ERROR] MissingMethodException: Method not found: 'UnityEditorInternal.InternalEditorUtility.GetClassIDWithoutLoadingObject'.
+KS.SceneFusion.Client.Editor.ComponentManager.SerializeComponent (UnityEngine.Component component, Boolean isPrefabComponent)
+KS.SceneFusion.Client.Editor.ComponentManager.Serialize (System.IO.BinaryWriter writer, ReferenceId transformReferenceId)
+KS.SceneFusion.Client.Editor.ObjectManager.EncodeObject (System.IO.BinaryWriter writer, KS.SceneFusion.Client.Editor.SpawnInfo spawnInfo)
+KS.SceneFusion.Client.Editor.ObjectManager+<ProcessSpawnRequestsCoroutine>d__86.MoveNext ()
+KS.Reactor.ksCoroutine.Step ()
+KS.Reactor.ksCoroutineManager+<>c.<UpdateCoroutines>b__5_0 (KS.Reactor.ksCoroutine coroutine)
+KS.Reactor.ksCoroutineManager.ForEach (KS.Reactor.CoroutineCallback coroutineCallback)
+KS.Reactor.ksCoroutineManager.UpdateCoroutines ()
+KS.SceneFusion.Client.Editor.ObjectManager.Update ()
+KS.SceneFusion.Client.Editor.CoEditService.Update ()
+UnityEditor.EditorApplication.Internal_CallUpdateFunctions () (at C:/buildslave/unity/build/Editor/Mono/EditorApplication.cs:127)
+
+2017-11-16 19:38:53.5804 [DEBUG] Disconnecting temporarily to enter play mode.
+2017-11-16 19:38:53.5809 [DEBUG] Disconnecting from room (49821:SceneFusion:SceneFusion)
+2017-11-16 19:38:53.5844 [INFO] Disconnected from server.
+2017-11-16 19:38:53.5844 [DEBUG] Disconnect. (Duration: 249)
+2017-11-16 19:38:53.8006 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2017-11-16 19:38:56.0265 [DEBUG] Scene Fusion version 1.6.0-1
+2017-11-16 19:38:56.0525 [DEBUG] Play mode: True, sync in play mode: False
+2017-11-16 19:38:56.1107 [DEBUG] Connecting to room (49821:SceneFusion:SceneFusion) via TCP at ec2-34-215-86-166.us-west-2.compute.amazonaws.com:1026
+2017-11-16 19:38:56.1192 [DEBUG] Guest connection. (Session: 49821)
+2017-11-16 19:38:56.5126 [DEBUG] Authenticating with server...
+2017-11-16 19:38:56.7479 [DEBUG] Connected to room. (49821:SceneFusion:SceneFusion)
+2017-11-16 19:38:56.7656 [INFO] Connected to server.
+2017-11-16 19:38:56.7656 [DEBUG] OS : Microsoft Windows NT 10.0.14393.0
+2017-11-16 19:38:56.7656 [DEBUG] Unity Version : 2017.2.0f3
+2017-11-16 19:38:56.7656 [DEBUG] Pro License : False
+2017-11-16 19:38:56.7661 [DEBUG] Platform : WindowsEditor
+2017-11-16 19:38:56.7661 [DEBUG] Build Target : StandaloneWindows64
+2017-11-16 19:38:56.7661 [DEBUG] Scene Fusion version : 1.6.0
+2017-11-16 19:38:56.7661 [DEBUG] User : 
+2017-11-16 19:38:56.8208 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2017-11-16 19:38:56.8208 [DEBUG] User Permissions: FFFFFFFF
+2017-11-16 19:38:56.8739 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2017-11-16 19:38:56.8739 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2017-11-16 19:38:56.8739 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2017-11-16 19:38:56.8739 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2017-11-16 19:38:56.8739 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2017-11-16 19:38:56.8744 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2017-11-16 19:38:57.5888 [DEBUG] Play mode: False
+2017-11-16 19:42:08.3913 [DEBUG] Disconnecting from room (49821:SceneFusion:SceneFusion)
+2017-11-16 19:42:08.3953 [INFO] Disconnected from server.
+2017-11-16 19:42:08.3958 [DEBUG] Disconnect. (Duration: 191)

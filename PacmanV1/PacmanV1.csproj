@@ -211,17 +211,17 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/toino/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/toino/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="KSCommon.Unity2017_1">
       <HintPath>Assets/KinematicSoup/KSCommon.Unity2017_1.dll</HintPath>
     </Reference>
     <Reference Include="KSSceneFusion.Unity2017_1">
       <HintPath>Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2017_1.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/toino/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/toino/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

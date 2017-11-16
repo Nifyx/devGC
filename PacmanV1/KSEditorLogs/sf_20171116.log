@@ -1,3 +1,12 @@
 2017-11-16 19:31:37.2013 [DEBUG] Scene Fusion version 1.6.0-1
 2017-11-16 19:31:37.2237 [INFO] Setting define symbol SCENE_FUSION
 2017-11-16 19:31:41.4245 [DEBUG] Scene Fusion version 1.6.0-1
+2017-11-16 19:33:33.5332 [DEBUG] Scene Fusion version 1.6.0-1
+2017-11-16 19:33:37.5591 [DEBUG] Scene Fusion version 1.6.0-1
+2017-11-16 19:34:42.9630 [DEBUG] Connecting to room (49821:SceneFusion:SceneFusion) via TCP at ec2-34-215-86-166.us-west-2.compute.amazonaws.com:1026
+2017-11-16 19:42:08.4208 [DEBUG] Sent C:/Users/toino/Desktop/gamedev/devGC/PacmanV1/KSEditorLogs/SessionLogs/session.49821-636464576829943366.log
+2017-11-16 19:42:32.2536 [INFO] Launching Scene: Untitled
+2017-11-16 19:42:32.8651 [DEBUG] Connecting to room (49825:SceneFusion:SceneFusion) via TCP at ec2-34-215-86-166.us-west-2.compute.amazonaws.com:1026
+2017-11-16 19:58:17.6936 [DEBUG] Sent C:/Users/toino/Desktop/gamedev/devGC/PacmanV1/KSEditorLogs/SessionLogs/session.49825-636464581528686836.log
+2017-11-16 19:58:33.6525 [INFO] Launching Scene: level1
+2017-11-16 19:58:34.2758 [DEBUG] Connecting to room (49832:SceneFusion:SceneFusion) via TCP at ec2-34-215-86-166.us-west-2.compute.amazonaws.com:1026
